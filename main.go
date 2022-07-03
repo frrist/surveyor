@@ -141,7 +141,7 @@ var runCmd = &cli.Command{
 		}
 		ctx := context.Background()
 		results := make(chan *survey.Result)
-		go inspect.Run(ctx, MinerPeerAddrInfo(), results, survey.NewAgentProcessor(inspect), survey.NewDHTProcessor(inspect))
+		go inspect.Run(ctx, MinerPeerAddrInfo(), results, survey.NewAgentProcessor(inspect), survey.NewDHTProcessor(inspect), survey.NewPeerLocation(inspect))
 
 		thing := make(map[string][]interface{})
 

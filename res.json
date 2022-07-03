@@ -4,6 +4,19 @@
     {
       "ID": "12D3KooWA3hqGbpsyF4L6vScuQFdi3nJxzGpuf5gT7jS2BAxkKuT",
       "Data": {
+        "Addrs": [
+          "/ip4/66.61.208.206/tcp/41372"
+        ],
+        "City": "Atlanta",
+        "Country": "United States of America",
+        "ID": "12D3KooWA3hqGbpsyF4L6vScuQFdi3nJxzGpuf5gT7jS2BAxkKuT",
+        "Latitude": 33.749,
+        "Longitude": -84.38798
+      }
+    },
+    {
+      "ID": "12D3KooWA3hqGbpsyF4L6vScuQFdi3nJxzGpuf5gT7jS2BAxkKuT",
+      "Data": {
         "Addr": [
           "/ip4/66.61.208.206/tcp/41372"
         ],
@@ -25,6 +38,19 @@
     }
   ],
   "12D3KooWAESujTdiW3DpuUQyU1UGakiUmw2geR1QKZRRMgYxias1": [
+    {
+      "ID": "12D3KooWAESujTdiW3DpuUQyU1UGakiUmw2geR1QKZRRMgYxias1",
+      "Data": {
+        "Addrs": [
+          "/ip4/218.78.187.146/tcp/21735"
+        ],
+        "City": "Shanghai",
+        "Country": "China",
+        "ID": "12D3KooWAESujTdiW3DpuUQyU1UGakiUmw2geR1QKZRRMgYxias1",
+        "Latitude": 31.224333,
+        "Longitude": 121.46914
+      }
+    },
     {
       "ID": "12D3KooWAESujTdiW3DpuUQyU1UGakiUmw2geR1QKZRRMgYxias1",
       "Data": {
@@ -52,34 +78,47 @@
     {
       "ID": "12D3KooWAT134zy5QdXdnwLS5Jkrp9jpMmY8ao1asRN7kwNAdjoC",
       "Data": {
+        "Addrs": [
+          "/ip4/222.209.189.157/tcp/8066"
+        ],
+        "City": "Chengdu",
+        "Country": "China",
+        "ID": "12D3KooWAT134zy5QdXdnwLS5Jkrp9jpMmY8ao1asRN7kwNAdjoC",
+        "Latitude": 30.66667,
+        "Longitude": 104.06667
+      }
+    },
+    {
+      "ID": "12D3KooWAT134zy5QdXdnwLS5Jkrp9jpMmY8ao1asRN7kwNAdjoC",
+      "Data": {
         "Addr": [
           "/ip4/222.209.189.157/tcp/8066"
         ],
         "Agent": "lotus-1.16.0+mainnet+git.01254ab",
         "ID": "12D3KooWAT134zy5QdXdnwLS5Jkrp9jpMmY8ao1asRN7kwNAdjoC",
         "Protocols": [
-          "/p2p/id/delta/1.0.0",
-          "/ipfs/id/1.0.0",
-          "/fil/storage/ask/1.0.1",
-          "/fil/storage/status/1.1.0",
-          "/fil/retrieval/qry/1.0.0",
-          "/ipfs/id/push/1.0.0",
-          "/ipfs/graphsync/1.0.0",
-          "/meshsub/1.0.0",
-          "/floodsub/1.0.0",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/fil/storage/ask/1.1.0",
+          "/libp2p/autonat/1.0.0",
           "/fil/storage/mk/1.1.0",
           "/fil/retrieval/qry/0.0.1",
           "/fil/kad/testnetnet/kad/1.0.0",
           "/ipfs/graphsync/2.0.0",
-          "/fil/datatransfer/1.2.0",
+          "/floodsub/1.0.0",
+          "/fil/storage/ask/1.1.0",
           "/fil/storage/mk/1.1.1",
+          "/ipfs/id/push/1.0.0",
+          "/ipfs/graphsync/1.0.0",
+          "/meshsub/1.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/storage/mk/1.0.1",
           "/fil/storage/status/1.0.1",
+          "/fil/retrieval/qry/1.0.0",
+          "/p2p/id/delta/1.0.0",
+          "/ipfs/id/1.0.0",
           "/ipfs/ping/1.0.0",
-          "/libp2p/autonat/1.0.0",
           "/meshsub/1.1.0",
-          "/fil/storage/mk/1.0.1"
+          "/legs/head//indexer/ingest/mainnet/0.0.1",
+          "/fil/storage/ask/1.0.1",
+          "/fil/storage/status/1.1.0"
         ]
       }
     },
@@ -91,14 +130,27 @@
         ],
         "Found": true,
         "FoundAddrs": [
-          "/ip4/222.209.189.157/tcp/8066",
-          "/ip4/222.209.188.56/tcp/8066"
+          "/ip4/222.209.188.56/tcp/8066",
+          "/ip4/222.209.189.157/tcp/8066"
         ],
         "ID": "12D3KooWAT134zy5QdXdnwLS5Jkrp9jpMmY8ao1asRN7kwNAdjoC"
       }
     }
   ],
   "12D3KooWAsv9bXDMCfdGEgembSsSZ9RrMcEgsfsdzHQaTPrSJP4A": [
+    {
+      "ID": "12D3KooWAsv9bXDMCfdGEgembSsSZ9RrMcEgsfsdzHQaTPrSJP4A",
+      "Data": {
+        "Addrs": [
+          "/ip4/66.61.208.206/tcp/41372"
+        ],
+        "City": "Atlanta",
+        "Country": "United States of America",
+        "ID": "12D3KooWAsv9bXDMCfdGEgembSsSZ9RrMcEgsfsdzHQaTPrSJP4A",
+        "Latitude": 33.749,
+        "Longitude": -84.38798
+      }
+    },
     {
       "ID": "12D3KooWAsv9bXDMCfdGEgembSsSZ9RrMcEgsfsdzHQaTPrSJP4A",
       "Data": {
@@ -126,6 +178,19 @@
     {
       "ID": "12D3KooWB4D2FSgP3wcadixg3RGq9PizQsyHyLuQYJRuajJa3kQN",
       "Data": {
+        "Addrs": [
+          "/ip4/202.160.106.54/tcp/28019"
+        ],
+        "City": "Ryde",
+        "Country": "Australia",
+        "ID": "12D3KooWB4D2FSgP3wcadixg3RGq9PizQsyHyLuQYJRuajJa3kQN",
+        "Latitude": -33.81667,
+        "Longitude": 151.1
+      }
+    },
+    {
+      "ID": "12D3KooWB4D2FSgP3wcadixg3RGq9PizQsyHyLuQYJRuajJa3kQN",
+      "Data": {
         "Addr": [
           "/ip4/202.160.106.54/tcp/28019"
         ],
@@ -147,6 +212,19 @@
     }
   ],
   "12D3KooWBSyBYP26He59btRU8cbJnm3tEDPvuRQQnw58V8K6NDFM": [
+    {
+      "ID": "12D3KooWBSyBYP26He59btRU8cbJnm3tEDPvuRQQnw58V8K6NDFM",
+      "Data": {
+        "Addrs": [
+          "/ip4/182.18.86.72/tcp/46888"
+        ],
+        "City": "Beijing",
+        "Country": "China",
+        "ID": "12D3KooWBSyBYP26He59btRU8cbJnm3tEDPvuRQQnw58V8K6NDFM",
+        "Latitude": 39.9075,
+        "Longitude": 116.39723
+      }
+    },
     {
       "ID": "12D3KooWBSyBYP26He59btRU8cbJnm3tEDPvuRQQnw58V8K6NDFM",
       "Data": {
@@ -174,34 +252,14 @@
     {
       "ID": "12D3KooWBvuSa1wDXmrxsrBUm3Tm26sT4RbKUwwENfspgYsmLjx8",
       "Data": {
-        "Addr": [
+        "Addrs": [
           "/ip4/208.97.197.18/tcp/11337"
         ],
-        "Agent": "lotus-1.15.3-custom+mainnet+git.cd5aae2a2",
+        "City": "McLean",
+        "Country": "United States of America",
         "ID": "12D3KooWBvuSa1wDXmrxsrBUm3Tm26sT4RbKUwwENfspgYsmLjx8",
-        "Protocols": [
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/fil/storage/mk/1.1.0",
-          "/fil/retrieval/qry/0.0.1",
-          "/ipfs/id/1.0.0",
-          "/ipfs/graphsync/1.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/meshsub/1.0.0",
-          "/floodsub/1.0.0",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/fil/storage/ask/1.1.0",
-          "/fil/storage/status/1.1.0",
-          "/p2p/id/delta/1.0.0",
-          "/libp2p/autonat/1.0.0",
-          "/ipfs/graphsync/2.0.0",
-          "/fil/storage/status/1.0.1",
-          "/fil/retrieval/qry/1.0.0",
-          "/ipfs/id/push/1.0.0",
-          "/ipfs/ping/1.0.0",
-          "/fil/storage/ask/1.0.1",
-          "/meshsub/1.1.0",
-          "/fil/storage/mk/1.0.1"
-        ]
+        "Latitude": 38.95276,
+        "Longitude": -77.23506
       }
     },
     {
@@ -216,16 +274,62 @@
         ],
         "ID": "12D3KooWBvuSa1wDXmrxsrBUm3Tm26sT4RbKUwwENfspgYsmLjx8"
       }
+    },
+    {
+      "ID": "12D3KooWBvuSa1wDXmrxsrBUm3Tm26sT4RbKUwwENfspgYsmLjx8",
+      "Data": {
+        "Addr": [
+          "/ip4/208.97.197.18/tcp/11337"
+        ],
+        "Agent": "lotus-1.15.3-custom+mainnet+git.cd5aae2a2",
+        "ID": "12D3KooWBvuSa1wDXmrxsrBUm3Tm26sT4RbKUwwENfspgYsmLjx8",
+        "Protocols": [
+          "/fil/storage/mk/1.1.0",
+          "/fil/storage/mk/1.0.1",
+          "/ipfs/id/push/1.0.0",
+          "/ipfs/ping/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/floodsub/1.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/storage/ask/1.1.0",
+          "/fil/storage/ask/1.0.1",
+          "/fil/storage/status/1.1.0",
+          "/ipfs/id/1.0.0",
+          "/libp2p/autonat/1.0.0",
+          "/ipfs/graphsync/2.0.0",
+          "/fil/retrieval/qry/1.0.0",
+          "/fil/storage/status/1.0.1",
+          "/fil/retrieval/qry/0.0.1",
+          "/ipfs/graphsync/1.0.0",
+          "/meshsub/1.1.0",
+          "/meshsub/1.0.0",
+          "/p2p/id/delta/1.0.0",
+          "/legs/head//indexer/ingest/mainnet/0.0.1"
+        ]
+      }
     }
   ],
   "12D3KooWBxFMAiY9ALptaw8rTg1tfMrWVxp6gbcCM7JrJb5zj4vR": [
     {
       "ID": "12D3KooWBxFMAiY9ALptaw8rTg1tfMrWVxp6gbcCM7JrJb5zj4vR",
       "Data": {
+        "Addrs": [
+          "/ip4/211.181.56.218/tcp/24001"
+        ],
+        "City": "Seoul",
+        "Country": "Korea (Republic of)",
+        "ID": "12D3KooWBxFMAiY9ALptaw8rTg1tfMrWVxp6gbcCM7JrJb5zj4vR",
+        "Latitude": 37.56631,
+        "Longitude": 126.97794
+      }
+    },
+    {
+      "ID": "12D3KooWBxFMAiY9ALptaw8rTg1tfMrWVxp6gbcCM7JrJb5zj4vR",
+      "Data": {
         "Addr": [
           "/ip4/211.181.56.218/tcp/24001"
         ],
-        "Error": "failed to dial 12D3KooWBxFMAiY9ALptaw8rTg1tfMrWVxp6gbcCM7JrJb5zj4vR:\n  * [/ip4/211.181.56.218/tcp/24001] failed to negotiate security protocol: read tcp4 192.168.1.62:58739-\u003e211.181.56.218:24001: read: connection reset by peer",
+        "Error": "failed to dial 12D3KooWBxFMAiY9ALptaw8rTg1tfMrWVxp6gbcCM7JrJb5zj4vR:\n  * [/ip4/211.181.56.218/tcp/24001] failed to negotiate security protocol: read tcp4 192.168.1.62:57430-\u003e211.181.56.218:24001: read: connection reset by peer",
         "ID": "12D3KooWBxFMAiY9ALptaw8rTg1tfMrWVxp6gbcCM7JrJb5zj4vR"
       }
     },
@@ -243,6 +347,19 @@
     }
   ],
   "12D3KooWC3VhMDKE44mDRLtE2j5D82tjseeV2Z7kpui44FvAaC1T": [
+    {
+      "ID": "12D3KooWC3VhMDKE44mDRLtE2j5D82tjseeV2Z7kpui44FvAaC1T",
+      "Data": {
+        "Addrs": [
+          "/ip4/66.61.208.206/tcp/41372"
+        ],
+        "City": "Atlanta",
+        "Country": "United States of America",
+        "ID": "12D3KooWC3VhMDKE44mDRLtE2j5D82tjseeV2Z7kpui44FvAaC1T",
+        "Latitude": 33.749,
+        "Longitude": -84.38798
+      }
+    },
     {
       "ID": "12D3KooWC3VhMDKE44mDRLtE2j5D82tjseeV2Z7kpui44FvAaC1T",
       "Data": {
@@ -270,6 +387,19 @@
     {
       "ID": "12D3KooWDKTnsWcGFhKJ9Gy4T8ULTuA73j1Yo1cEy8hrgxZTXGPa",
       "Data": {
+        "Addrs": [
+          "/ip4/47.108.179.232/tcp/24001"
+        ],
+        "City": "Chengdu",
+        "Country": "China",
+        "ID": "12D3KooWDKTnsWcGFhKJ9Gy4T8ULTuA73j1Yo1cEy8hrgxZTXGPa",
+        "Latitude": 30.66667,
+        "Longitude": 104.06667
+      }
+    },
+    {
+      "ID": "12D3KooWDKTnsWcGFhKJ9Gy4T8ULTuA73j1Yo1cEy8hrgxZTXGPa",
+      "Data": {
         "Addr": [
           "/ip4/47.108.179.232/tcp/24001"
         ],
@@ -291,6 +421,19 @@
     }
   ],
   "12D3KooWDbkakgtEcUYnDopUDJWKFbSDKM1gQDz1jT6XLcdwHbWX": [
+    {
+      "ID": "12D3KooWDbkakgtEcUYnDopUDJWKFbSDKM1gQDz1jT6XLcdwHbWX",
+      "Data": {
+        "Addrs": [
+          "/ip4/122.114.37.226/tcp/12000"
+        ],
+        "City": "Zhengzhou",
+        "Country": "China",
+        "ID": "12D3KooWDbkakgtEcUYnDopUDJWKFbSDKM1gQDz1jT6XLcdwHbWX",
+        "Latitude": 34.75778,
+        "Longitude": 113.64861
+      }
+    },
     {
       "ID": "12D3KooWDbkakgtEcUYnDopUDJWKFbSDKM1gQDz1jT6XLcdwHbWX",
       "Data": {
@@ -318,6 +461,19 @@
     {
       "ID": "12D3KooWEZb2AAVTe1jSKnioqwcSzGSsTGD2dXpQT2qeYKfFZ7Tm",
       "Data": {
+        "Addrs": [
+          "/ip4/172.16.1.48/tcp/58418"
+        ],
+        "City": "-",
+        "Country": "-",
+        "ID": "12D3KooWEZb2AAVTe1jSKnioqwcSzGSsTGD2dXpQT2qeYKfFZ7Tm",
+        "Latitude": 0,
+        "Longitude": 0
+      }
+    },
+    {
+      "ID": "12D3KooWEZb2AAVTe1jSKnioqwcSzGSsTGD2dXpQT2qeYKfFZ7Tm",
+      "Data": {
         "Addr": [
           "/ip4/172.16.1.48/tcp/58418"
         ],
@@ -342,23 +498,36 @@
     {
       "ID": "12D3KooWF3Digx6FXjRAwkJeFzVFaqTvtPrWXqqHusTPobb23pPj",
       "Data": {
+        "Addrs": [
+          "/ip4/54.219.44.132/tcp/8993"
+        ],
+        "City": "San Francisco",
+        "Country": "United States of America",
+        "ID": "12D3KooWF3Digx6FXjRAwkJeFzVFaqTvtPrWXqqHusTPobb23pPj",
+        "Latitude": 37.77493,
+        "Longitude": -122.41942
+      }
+    },
+    {
+      "ID": "12D3KooWF3Digx6FXjRAwkJeFzVFaqTvtPrWXqqHusTPobb23pPj",
+      "Data": {
         "Addr": [
           "/ip4/54.219.44.132/tcp/8993"
         ],
         "Agent": "lotus-1.15.1-dev+mainnet+git.a59dfe52.dirty",
         "ID": "12D3KooWF3Digx6FXjRAwkJeFzVFaqTvtPrWXqqHusTPobb23pPj",
         "Protocols": [
+          "/ipfs/id/1.0.0",
+          "/ipfs/ping/1.0.0",
+          "/fil/retrieval/qry/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/p2p/id/delta/1.0.0",
+          "/ipfs/id/push/1.0.0",
           "/libp2p/autonat/1.0.0",
           "/ipfs/graphsync/2.0.0",
           "/ipfs/graphsync/1.0.0",
-          "/fil/retrieval/qry/0.0.1",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/p2p/id/delta/1.0.0",
-          "/ipfs/id/1.0.0",
-          "/ipfs/id/push/1.0.0",
-          "/ipfs/ping/1.0.0",
           "/fil/datatransfer/1.2.0",
-          "/fil/retrieval/qry/1.0.0"
+          "/fil/retrieval/qry/0.0.1"
         ]
       }
     },
@@ -383,23 +552,36 @@
     {
       "ID": "12D3KooWF9mXJA1tonrDLPyUNJMxJNLLpqQPntuocuULEqNCLRFT",
       "Data": {
+        "Addrs": [
+          "/ip4/18.190.24.1/tcp/9473"
+        ],
+        "City": "Columbus",
+        "Country": "United States of America",
+        "ID": "12D3KooWF9mXJA1tonrDLPyUNJMxJNLLpqQPntuocuULEqNCLRFT",
+        "Latitude": 39.96118,
+        "Longitude": -82.99879
+      }
+    },
+    {
+      "ID": "12D3KooWF9mXJA1tonrDLPyUNJMxJNLLpqQPntuocuULEqNCLRFT",
+      "Data": {
         "Addr": [
           "/ip4/18.190.24.1/tcp/9473"
         ],
         "Agent": "lotus-1.15.1-dev+mainnet+git.25a8d014.dirty",
         "ID": "12D3KooWF9mXJA1tonrDLPyUNJMxJNLLpqQPntuocuULEqNCLRFT",
         "Protocols": [
-          "/ipfs/ping/1.0.0",
+          "/p2p/id/delta/1.0.0",
+          "/ipfs/id/push/1.0.0",
           "/libp2p/autonat/1.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/retrieval/qry/1.0.0",
+          "/ipfs/id/1.0.0",
+          "/ipfs/ping/1.0.0",
           "/ipfs/graphsync/2.0.0",
           "/ipfs/graphsync/1.0.0",
           "/fil/retrieval/qry/0.0.1",
-          "/ipfs/id/1.0.0",
-          "/ipfs/id/push/1.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/fil/retrieval/qry/1.0.0",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/p2p/id/delta/1.0.0"
+          "/fil/kad/testnetnet/kad/1.0.0"
         ]
       }
     },
@@ -411,8 +593,8 @@
         ],
         "Found": true,
         "FoundAddrs": [
-          "/ip4/172.31.31.54/tcp/9473",
           "/ip4/18.190.24.1/tcp/9473",
+          "/ip4/172.31.31.54/tcp/9473",
           "/ip4/127.0.0.1/tcp/9473",
           "/ip6/::1/tcp/40601"
         ],
@@ -421,6 +603,19 @@
     }
   ],
   "12D3KooWFGQKFqY4vidD8h7i7zcQtSA4nhoPDyVbWfGk6G5AcP28": [
+    {
+      "ID": "12D3KooWFGQKFqY4vidD8h7i7zcQtSA4nhoPDyVbWfGk6G5AcP28",
+      "Data": {
+        "Addrs": [
+          "/ip4/83.238.168.109/tcp/24002"
+        ],
+        "City": "Warsaw",
+        "Country": "Poland",
+        "ID": "12D3KooWFGQKFqY4vidD8h7i7zcQtSA4nhoPDyVbWfGk6G5AcP28",
+        "Latitude": 52.22977,
+        "Longitude": 21.01178
+      }
+    },
     {
       "ID": "12D3KooWFGQKFqY4vidD8h7i7zcQtSA4nhoPDyVbWfGk6G5AcP28",
       "Data": {
@@ -448,6 +643,19 @@
     {
       "ID": "12D3KooWFMPX3BkTCHGUcKhRktusAJQJxBZfJZUvE9sFcfK4r3oE",
       "Data": {
+        "Addrs": [
+          "/ip4/86.123.188.55/tcp/24001"
+        ],
+        "City": "Giurgiu",
+        "Country": "Romania",
+        "ID": "12D3KooWFMPX3BkTCHGUcKhRktusAJQJxBZfJZUvE9sFcfK4r3oE",
+        "Latitude": 43.88333,
+        "Longitude": 25.96667
+      }
+    },
+    {
+      "ID": "12D3KooWFMPX3BkTCHGUcKhRktusAJQJxBZfJZUvE9sFcfK4r3oE",
+      "Data": {
         "Addr": [
           "/ip4/86.123.188.55/tcp/24001"
         ],
@@ -469,6 +677,19 @@
     }
   ],
   "12D3KooWFMmYND7ArbQJ1PauzCcwt1q6ZFxE5E8jEEhToYF36EHr": [
+    {
+      "ID": "12D3KooWFMmYND7ArbQJ1PauzCcwt1q6ZFxE5E8jEEhToYF36EHr",
+      "Data": {
+        "Addrs": [
+          "/ip4/66.61.208.206/tcp/41372"
+        ],
+        "City": "Atlanta",
+        "Country": "United States of America",
+        "ID": "12D3KooWFMmYND7ArbQJ1PauzCcwt1q6ZFxE5E8jEEhToYF36EHr",
+        "Latitude": 33.749,
+        "Longitude": -84.38798
+      }
+    },
     {
       "ID": "12D3KooWFMmYND7ArbQJ1PauzCcwt1q6ZFxE5E8jEEhToYF36EHr",
       "Data": {
@@ -496,14 +717,14 @@
     {
       "ID": "12D3KooWFWjjGANCcWq3vjEXydtYi8iwX1447zQA5fcaGiyw8VaK",
       "Data": {
-        "Addr": [
+        "Addrs": [
           "/ip4/202.160.106.54/tcp/28019"
         ],
-        "Found": true,
-        "FoundAddrs": [
-          "/ip4/202.160.106.54/tcp/28019"
-        ],
-        "ID": "12D3KooWFWjjGANCcWq3vjEXydtYi8iwX1447zQA5fcaGiyw8VaK"
+        "City": "Ryde",
+        "Country": "Australia",
+        "ID": "12D3KooWFWjjGANCcWq3vjEXydtYi8iwX1447zQA5fcaGiyw8VaK",
+        "Latitude": -33.81667,
+        "Longitude": 151.1
       }
     },
     {
@@ -515,33 +736,92 @@
         "Agent": "lotus-1.16.0+mainnet+git.01254ab32",
         "ID": "12D3KooWFWjjGANCcWq3vjEXydtYi8iwX1447zQA5fcaGiyw8VaK",
         "Protocols": [
-          "/fil/storage/mk/1.1.1",
-          "/fil/storage/status/1.0.1",
-          "/ipfs/id/1.0.0",
-          "/ipfs/id/push/1.0.0",
-          "/libp2p/autonat/1.0.0",
-          "/ipfs/graphsync/2.0.0",
-          "/fil/datatransfer/1.2.0",
+          "/fil/storage/status/1.1.0",
           "/p2p/id/delta/1.0.0",
-          "/ipfs/ping/1.0.0",
-          "/meshsub/1.1.0",
-          "/fil/storage/ask/1.1.0",
-          "/fil/storage/ask/1.0.1",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/fil/storage/mk/1.0.1",
-          "/fil/retrieval/qry/0.0.1",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/fil/retrieval/qry/1.0.0",
-          "/ipfs/graphsync/1.0.0",
-          "/meshsub/1.0.0",
+          "/ipfs/graphsync/2.0.0",
           "/floodsub/1.0.0",
+          "/fil/storage/mk/1.1.1",
+          "/fil/storage/ask/1.0.1",
+          "/fil/storage/mk/1.0.1",
+          "/ipfs/id/push/1.0.0",
+          "/ipfs/ping/1.0.0",
+          "/legs/head//indexer/ingest/mainnet/0.0.1",
+          "/fil/storage/ask/1.1.0",
+          "/meshsub/1.0.0",
           "/fil/storage/mk/1.1.0",
-          "/fil/storage/status/1.1.0"
+          "/fil/storage/status/1.0.1",
+          "/fil/retrieval/qry/1.0.0",
+          "/ipfs/id/1.0.0",
+          "/libp2p/autonat/1.0.0",
+          "/ipfs/graphsync/1.0.0",
+          "/meshsub/1.1.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/retrieval/qry/0.0.1"
         ]
+      }
+    },
+    {
+      "ID": "12D3KooWFWjjGANCcWq3vjEXydtYi8iwX1447zQA5fcaGiyw8VaK",
+      "Data": {
+        "Addr": [
+          "/ip4/202.160.106.54/tcp/28019"
+        ],
+        "Found": true,
+        "FoundAddrs": [
+          "/ip4/202.160.106.54/tcp/28019"
+        ],
+        "ID": "12D3KooWFWjjGANCcWq3vjEXydtYi8iwX1447zQA5fcaGiyw8VaK"
       }
     }
   ],
   "12D3KooWFmAudEtLLYRhTgUwDu6h1Wnf9JKfSfkC4YR6qJPBZeBt": [
+    {
+      "ID": "12D3KooWFmAudEtLLYRhTgUwDu6h1Wnf9JKfSfkC4YR6qJPBZeBt",
+      "Data": {
+        "Addrs": [
+          "/ip4/67.212.85.196/tcp/10906"
+        ],
+        "City": "Montreal",
+        "Country": "Canada",
+        "ID": "12D3KooWFmAudEtLLYRhTgUwDu6h1Wnf9JKfSfkC4YR6qJPBZeBt",
+        "Latitude": 45.50884,
+        "Longitude": -73.58781
+      }
+    },
+    {
+      "ID": "12D3KooWFmAudEtLLYRhTgUwDu6h1Wnf9JKfSfkC4YR6qJPBZeBt",
+      "Data": {
+        "Addr": [
+          "/ip4/67.212.85.196/tcp/10906"
+        ],
+        "Agent": "lotus-1.15.2+mainnet+git.518dc962e",
+        "ID": "12D3KooWFmAudEtLLYRhTgUwDu6h1Wnf9JKfSfkC4YR6qJPBZeBt",
+        "Protocols": [
+          "/fil/storage/mk/1.1.0",
+          "/fil/storage/mk/1.0.1",
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/p2p/id/delta/1.0.0",
+          "/meshsub/1.0.0",
+          "/fil/storage/ask/1.1.0",
+          "/libp2p/autonat/1.0.0",
+          "/ipfs/graphsync/2.0.0",
+          "/fil/storage/status/1.0.1",
+          "/fil/retrieval/qry/0.0.1",
+          "/fil/storage/ask/1.0.1",
+          "/fil/retrieval/qry/1.0.0",
+          "/ipfs/id/1.0.0",
+          "/ipfs/id/push/1.0.0",
+          "/legs/head//indexer/ingest/mainnet/0.0.1",
+          "/floodsub/1.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/storage/status/1.1.0",
+          "/ipfs/ping/1.0.0",
+          "/ipfs/graphsync/1.0.0",
+          "/meshsub/1.1.0"
+        ]
+      }
+    },
     {
       "ID": "12D3KooWFmAudEtLLYRhTgUwDu6h1Wnf9JKfSfkC4YR6qJPBZeBt",
       "Data": {
@@ -554,42 +834,22 @@
         ],
         "ID": "12D3KooWFmAudEtLLYRhTgUwDu6h1Wnf9JKfSfkC4YR6qJPBZeBt"
       }
-    },
-    {
-      "ID": "12D3KooWFmAudEtLLYRhTgUwDu6h1Wnf9JKfSfkC4YR6qJPBZeBt",
-      "Data": {
-        "Addr": [
-          "/ip4/67.212.85.196/tcp/10906"
-        ],
-        "Agent": "lotus-1.15.2+mainnet+git.518dc962e",
-        "ID": "12D3KooWFmAudEtLLYRhTgUwDu6h1Wnf9JKfSfkC4YR6qJPBZeBt",
-        "Protocols": [
-          "/p2p/id/delta/1.0.0",
-          "/ipfs/id/push/1.0.0",
-          "/meshsub/1.1.0",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/fil/storage/mk/1.0.1",
-          "/fil/retrieval/qry/1.0.0",
-          "/fil/retrieval/qry/0.0.1",
-          "/floodsub/1.0.0",
-          "/fil/storage/status/1.1.0",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/ipfs/id/1.0.0",
-          "/ipfs/graphsync/2.0.0",
-          "/ipfs/graphsync/1.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/fil/storage/ask/1.0.1",
-          "/ipfs/ping/1.0.0",
-          "/meshsub/1.0.0",
-          "/fil/storage/ask/1.1.0",
-          "/fil/storage/mk/1.1.0",
-          "/fil/storage/status/1.0.1",
-          "/libp2p/autonat/1.0.0"
-        ]
-      }
     }
   ],
   "12D3KooWG86gyFfD9co3tvuy7qHwcB637pJFwePX5ZSX9XfmFmTT": [
+    {
+      "ID": "12D3KooWG86gyFfD9co3tvuy7qHwcB637pJFwePX5ZSX9XfmFmTT",
+      "Data": {
+        "Addrs": [
+          "/ip4/10.8.1.7/tcp/6666"
+        ],
+        "City": "-",
+        "Country": "-",
+        "ID": "12D3KooWG86gyFfD9co3tvuy7qHwcB637pJFwePX5ZSX9XfmFmTT",
+        "Latitude": 0,
+        "Longitude": 0
+      }
+    },
     {
       "ID": "12D3KooWG86gyFfD9co3tvuy7qHwcB637pJFwePX5ZSX9XfmFmTT",
       "Data": {
@@ -617,6 +877,19 @@
     {
       "ID": "12D3KooWG9QcL71Fd6zEYqdGEDxw5ZYGpBqccyXkKeoUDu6yawDN",
       "Data": {
+        "Addrs": [
+          "/ip4/103.127.248.194/tcp/10001"
+        ],
+        "City": "Hong Kong",
+        "Country": "Hong Kong",
+        "ID": "12D3KooWG9QcL71Fd6zEYqdGEDxw5ZYGpBqccyXkKeoUDu6yawDN",
+        "Latitude": 22.28552,
+        "Longitude": 114.15769
+      }
+    },
+    {
+      "ID": "12D3KooWG9QcL71Fd6zEYqdGEDxw5ZYGpBqccyXkKeoUDu6yawDN",
+      "Data": {
         "Addr": [
           "/ip4/103.127.248.194/tcp/10001"
         ],
@@ -641,34 +914,47 @@
     {
       "ID": "12D3KooWGicw4S44fb4hof72EY6HdQxtfZnbDcKcMKTGqMUd6QWe",
       "Data": {
+        "Addrs": [
+          "/ip4/114.86.142.162/tcp/24001"
+        ],
+        "City": "Shanghai",
+        "Country": "China",
+        "ID": "12D3KooWGicw4S44fb4hof72EY6HdQxtfZnbDcKcMKTGqMUd6QWe",
+        "Latitude": 31.224333,
+        "Longitude": 121.46914
+      }
+    },
+    {
+      "ID": "12D3KooWGicw4S44fb4hof72EY6HdQxtfZnbDcKcMKTGqMUd6QWe",
+      "Data": {
         "Addr": [
           "/ip4/114.86.142.162/tcp/24001"
         ],
         "Agent": "lotus-1.16.0+mainnet+git.01254ab32.dirty",
         "ID": "12D3KooWGicw4S44fb4hof72EY6HdQxtfZnbDcKcMKTGqMUd6QWe",
         "Protocols": [
-          "/floodsub/1.0.0",
-          "/fil/storage/ask/1.1.0",
-          "/fil/storage/ask/1.0.1",
-          "/fil/retrieval/qry/0.0.1",
           "/p2p/id/delta/1.0.0",
-          "/ipfs/id/push/1.0.0",
+          "/ipfs/graphsync/1.0.0",
+          "/floodsub/1.0.0",
           "/ipfs/ping/1.0.0",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/ipfs/id/1.0.0",
-          "/libp2p/autonat/1.0.0",
-          "/meshsub/1.0.0",
-          "/fil/storage/mk/1.1.0",
-          "/fil/storage/mk/1.0.1",
-          "/fil/storage/status/1.0.1",
-          "/fil/retrieval/qry/1.0.0",
-          "/ipfs/graphsync/2.0.0",
           "/fil/datatransfer/1.2.0",
           "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/fil/storage/mk/1.1.1",
-          "/ipfs/graphsync/1.0.0",
+          "/fil/storage/mk/1.1.0",
+          "/fil/storage/mk/1.0.1",
+          "/fil/retrieval/qry/1.0.0",
+          "/ipfs/id/push/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
           "/meshsub/1.1.0",
-          "/fil/storage/status/1.1.0"
+          "/meshsub/1.0.0",
+          "/fil/storage/status/1.1.0",
+          "/fil/storage/status/1.0.1",
+          "/ipfs/id/1.0.0",
+          "/libp2p/autonat/1.0.0",
+          "/ipfs/graphsync/2.0.0",
+          "/fil/storage/ask/1.1.0",
+          "/fil/storage/ask/1.0.1",
+          "/fil/storage/mk/1.1.1",
+          "/fil/retrieval/qry/0.0.1"
         ]
       }
     },
@@ -680,14 +966,27 @@
         ],
         "Found": true,
         "FoundAddrs": [
-          "/ip4/114.86.142.162/tcp/24001",
-          "/ip6/240e:389:7119:7e00::ecb/tcp/24002"
+          "/ip6/240e:389:7119:7e00::ecb/tcp/24002",
+          "/ip4/114.86.142.162/tcp/24001"
         ],
         "ID": "12D3KooWGicw4S44fb4hof72EY6HdQxtfZnbDcKcMKTGqMUd6QWe"
       }
     }
   ],
   "12D3KooWJ6o3TjmVkbd9dfLfDewsHbonZY1ufxD25PqBRBXkdDgz": [
+    {
+      "ID": "12D3KooWJ6o3TjmVkbd9dfLfDewsHbonZY1ufxD25PqBRBXkdDgz",
+      "Data": {
+        "Addrs": [
+          "/ip4/183.93.252.68/tcp/1235"
+        ],
+        "City": "Yichang",
+        "Country": "China",
+        "ID": "12D3KooWJ6o3TjmVkbd9dfLfDewsHbonZY1ufxD25PqBRBXkdDgz",
+        "Latitude": 30.71444,
+        "Longitude": 111.28472
+      }
+    },
     {
       "ID": "12D3KooWJ6o3TjmVkbd9dfLfDewsHbonZY1ufxD25PqBRBXkdDgz",
       "Data": {
@@ -715,14 +1014,14 @@
     {
       "ID": "12D3KooWJNn4H5XVihwD4oEbouxJ7yyCAyLSsCB57XCHsLmcifRe",
       "Data": {
-        "Addr": [
+        "Addrs": [
           "/ip4/211.48.44.75/tcp/24001"
         ],
-        "Found": true,
-        "FoundAddrs": [
-          "/ip4/211.48.44.75/tcp/24001"
-        ],
-        "ID": "12D3KooWJNn4H5XVihwD4oEbouxJ7yyCAyLSsCB57XCHsLmcifRe"
+        "City": "Seongnam",
+        "Country": "Korea (Republic of)",
+        "ID": "12D3KooWJNn4H5XVihwD4oEbouxJ7yyCAyLSsCB57XCHsLmcifRe",
+        "Latitude": 37.420124,
+        "Longitude": 127.12666
       }
     },
     {
@@ -734,33 +1033,59 @@
         "Agent": "lotus-1.16.0+mainnet+git.01254ab32",
         "ID": "12D3KooWJNn4H5XVihwD4oEbouxJ7yyCAyLSsCB57XCHsLmcifRe",
         "Protocols": [
-          "/p2p/id/delta/1.0.0",
-          "/ipfs/id/1.0.0",
           "/ipfs/id/push/1.0.0",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/fil/storage/ask/1.0.1",
-          "/fil/storage/mk/1.1.0",
-          "/libp2p/autonat/1.0.0",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/ipfs/graphsync/2.0.0",
-          "/fil/storage/status/1.1.0",
-          "/fil/retrieval/qry/1.0.0",
-          "/fil/retrieval/qry/0.0.1",
-          "/fil/storage/ask/1.1.0",
-          "/fil/storage/status/1.0.1",
           "/ipfs/ping/1.0.0",
-          "/ipfs/graphsync/1.0.0",
-          "/meshsub/1.1.0",
+          "/fil/storage/ask/1.1.0",
+          "/p2p/id/delta/1.0.0",
           "/meshsub/1.0.0",
           "/floodsub/1.0.0",
-          "/fil/datatransfer/1.2.0",
+          "/legs/head//indexer/ingest/mainnet/0.0.1",
+          "/fil/storage/ask/1.0.1",
           "/fil/storage/mk/1.1.1",
-          "/fil/storage/mk/1.0.1"
+          "/fil/storage/mk/1.1.0",
+          "/fil/storage/mk/1.0.1",
+          "/ipfs/id/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/ipfs/graphsync/2.0.0",
+          "/ipfs/graphsync/1.0.0",
+          "/fil/storage/status/1.0.1",
+          "/fil/retrieval/qry/1.0.0",
+          "/fil/retrieval/qry/0.0.1",
+          "/libp2p/autonat/1.0.0",
+          "/meshsub/1.1.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/storage/status/1.1.0"
         ]
+      }
+    },
+    {
+      "ID": "12D3KooWJNn4H5XVihwD4oEbouxJ7yyCAyLSsCB57XCHsLmcifRe",
+      "Data": {
+        "Addr": [
+          "/ip4/211.48.44.75/tcp/24001"
+        ],
+        "Found": true,
+        "FoundAddrs": [
+          "/ip4/211.48.44.75/tcp/24001"
+        ],
+        "ID": "12D3KooWJNn4H5XVihwD4oEbouxJ7yyCAyLSsCB57XCHsLmcifRe"
       }
     }
   ],
   "12D3KooWK6UYYpVbqqPquP8eCSF6DUFGykgiJe2d9j3tii7S3a6N": [
+    {
+      "ID": "12D3KooWK6UYYpVbqqPquP8eCSF6DUFGykgiJe2d9j3tii7S3a6N",
+      "Data": {
+        "Addrs": [
+          "/ip4/10.7.3.2/tcp/1025"
+        ],
+        "City": "-",
+        "Country": "-",
+        "ID": "12D3KooWK6UYYpVbqqPquP8eCSF6DUFGykgiJe2d9j3tii7S3a6N",
+        "Latitude": 0,
+        "Longitude": 0
+      }
+    },
     {
       "ID": "12D3KooWK6UYYpVbqqPquP8eCSF6DUFGykgiJe2d9j3tii7S3a6N",
       "Data": {
@@ -788,6 +1113,19 @@
     {
       "ID": "12D3KooWKQ3mbUyWmNzNeNQnom31myqZc9ZMxyW8My6oJHMVUoEF",
       "Data": {
+        "Addrs": [
+          "/ip4/10.8.1.9/tcp/6666"
+        ],
+        "City": "-",
+        "Country": "-",
+        "ID": "12D3KooWKQ3mbUyWmNzNeNQnom31myqZc9ZMxyW8My6oJHMVUoEF",
+        "Latitude": 0,
+        "Longitude": 0
+      }
+    },
+    {
+      "ID": "12D3KooWKQ3mbUyWmNzNeNQnom31myqZc9ZMxyW8My6oJHMVUoEF",
+      "Data": {
         "Addr": [
           "/ip4/10.8.1.9/tcp/6666"
         ],
@@ -812,23 +1150,36 @@
     {
       "ID": "12D3KooWLYaqBwdVkNh1e19AEpyveRdbtjwdTwtSR9rYEQNCJ3fN",
       "Data": {
+        "Addrs": [
+          "/ip4/35.90.15.192/tcp/8152"
+        ],
+        "City": "Portland",
+        "Country": "United States of America",
+        "ID": "12D3KooWLYaqBwdVkNh1e19AEpyveRdbtjwdTwtSR9rYEQNCJ3fN",
+        "Latitude": 45.52345,
+        "Longitude": -122.67621
+      }
+    },
+    {
+      "ID": "12D3KooWLYaqBwdVkNh1e19AEpyveRdbtjwdTwtSR9rYEQNCJ3fN",
+      "Data": {
         "Addr": [
           "/ip4/35.90.15.192/tcp/8152"
         ],
         "Agent": "lotus-1.15.1-dev+mainnet+git.a59dfe52.dirty",
         "ID": "12D3KooWLYaqBwdVkNh1e19AEpyveRdbtjwdTwtSR9rYEQNCJ3fN",
         "Protocols": [
-          "/libp2p/autonat/1.0.0",
-          "/fil/retrieval/qry/1.0.0",
-          "/fil/retrieval/qry/0.0.1",
           "/fil/kad/testnetnet/kad/1.0.0",
+          "/p2p/id/delta/1.0.0",
+          "/ipfs/ping/1.0.0",
+          "/libp2p/autonat/1.0.0",
+          "/ipfs/graphsync/2.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/retrieval/qry/0.0.1",
           "/ipfs/id/1.0.0",
           "/ipfs/id/push/1.0.0",
-          "/ipfs/ping/1.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/p2p/id/delta/1.0.0",
-          "/ipfs/graphsync/2.0.0",
-          "/ipfs/graphsync/1.0.0"
+          "/ipfs/graphsync/1.0.0",
+          "/fil/retrieval/qry/1.0.0"
         ]
       }
     },
@@ -853,14 +1204,14 @@
     {
       "ID": "12D3KooWM8jLc6ukRaiWkS8MeGR8LvrMK3qCeuEEikVPhgXhxgqJ",
       "Data": {
-        "Addr": [
+        "Addrs": [
           "/ip4/61.97.250.14/tcp/1235"
         ],
-        "Found": true,
-        "FoundAddrs": [
-          "/ip4/61.97.250.14/tcp/1235"
-        ],
-        "ID": "12D3KooWM8jLc6ukRaiWkS8MeGR8LvrMK3qCeuEEikVPhgXhxgqJ"
+        "City": "Seoul",
+        "Country": "Korea (Republic of)",
+        "ID": "12D3KooWM8jLc6ukRaiWkS8MeGR8LvrMK3qCeuEEikVPhgXhxgqJ",
+        "Latitude": 37.56631,
+        "Longitude": 126.97794
       }
     },
     {
@@ -872,32 +1223,58 @@
         "Agent": "lotus-1.15.2+mainnet+git.518dc962e",
         "ID": "12D3KooWM8jLc6ukRaiWkS8MeGR8LvrMK3qCeuEEikVPhgXhxgqJ",
         "Protocols": [
-          "/ipfs/id/1.0.0",
-          "/ipfs/ping/1.0.0",
-          "/meshsub/1.1.0",
-          "/floodsub/1.0.0",
-          "/p2p/id/delta/1.0.0",
-          "/ipfs/graphsync/1.0.0",
-          "/fil/storage/mk/1.1.0",
-          "/fil/storage/mk/1.0.1",
-          "/ipfs/id/push/1.0.0",
-          "/libp2p/autonat/1.0.0",
-          "/ipfs/graphsync/2.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/fil/storage/ask/1.1.0",
-          "/fil/storage/ask/1.0.1",
           "/fil/storage/status/1.1.0",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/meshsub/1.0.0",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/fil/storage/status/1.0.1",
           "/fil/retrieval/qry/1.0.0",
-          "/fil/retrieval/qry/0.0.1"
+          "/ipfs/id/push/1.0.0",
+          "/meshsub/1.1.0",
+          "/fil/storage/ask/1.1.0",
+          "/floodsub/1.0.0",
+          "/legs/head//indexer/ingest/mainnet/0.0.1",
+          "/fil/storage/ask/1.0.1",
+          "/fil/storage/mk/1.0.1",
+          "/p2p/id/delta/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/ipfs/graphsync/1.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/storage/mk/1.1.0",
+          "/ipfs/ping/1.0.0",
+          "/libp2p/autonat/1.0.0",
+          "/meshsub/1.0.0",
+          "/fil/retrieval/qry/0.0.1",
+          "/ipfs/id/1.0.0",
+          "/ipfs/graphsync/2.0.0",
+          "/fil/storage/status/1.0.1"
         ]
+      }
+    },
+    {
+      "ID": "12D3KooWM8jLc6ukRaiWkS8MeGR8LvrMK3qCeuEEikVPhgXhxgqJ",
+      "Data": {
+        "Addr": [
+          "/ip4/61.97.250.14/tcp/1235"
+        ],
+        "Found": true,
+        "FoundAddrs": [
+          "/ip4/61.97.250.14/tcp/1235"
+        ],
+        "ID": "12D3KooWM8jLc6ukRaiWkS8MeGR8LvrMK3qCeuEEikVPhgXhxgqJ"
       }
     }
   ],
   "12D3KooWMBrbCkYszgKZHq4WhdYLHPQc57JPJQNGyRNUx5oHtdvU": [
+    {
+      "ID": "12D3KooWMBrbCkYszgKZHq4WhdYLHPQc57JPJQNGyRNUx5oHtdvU",
+      "Data": {
+        "Addrs": [
+          "/ip4/202.160.106.54/tcp/28018"
+        ],
+        "City": "Ryde",
+        "Country": "Australia",
+        "ID": "12D3KooWMBrbCkYszgKZHq4WhdYLHPQc57JPJQNGyRNUx5oHtdvU",
+        "Latitude": -33.81667,
+        "Longitude": 151.1
+      }
+    },
     {
       "ID": "12D3KooWMBrbCkYszgKZHq4WhdYLHPQc57JPJQNGyRNUx5oHtdvU",
       "Data": {
@@ -907,28 +1284,28 @@
         "Agent": "lotus-1.16.0+mainnet+git.01254ab32",
         "ID": "12D3KooWMBrbCkYszgKZHq4WhdYLHPQc57JPJQNGyRNUx5oHtdvU",
         "Protocols": [
-          "/meshsub/1.0.0",
-          "/floodsub/1.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/fil/storage/mk/1.0.1",
-          "/p2p/id/delta/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
           "/ipfs/ping/1.0.0",
-          "/meshsub/1.1.0",
-          "/fil/storage/ask/1.1.0",
-          "/fil/storage/status/1.1.0",
-          "/fil/retrieval/qry/1.0.0",
-          "/fil/retrieval/qry/0.0.1",
-          "/ipfs/id/push/1.0.0",
-          "/ipfs/graphsync/2.0.0",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/ipfs/id/1.0.0",
-          "/libp2p/autonat/1.0.0",
           "/ipfs/graphsync/1.0.0",
-          "/fil/storage/ask/1.0.1",
-          "/fil/storage/mk/1.1.1",
-          "/fil/storage/mk/1.1.0",
+          "/fil/datatransfer/1.2.0",
           "/fil/storage/status/1.0.1",
-          "/fil/kad/testnetnet/kad/1.0.0"
+          "/fil/retrieval/qry/1.0.0",
+          "/ipfs/graphsync/2.0.0",
+          "/meshsub/1.1.0",
+          "/legs/head//indexer/ingest/mainnet/0.0.1",
+          "/fil/storage/mk/1.1.1",
+          "/fil/storage/mk/1.0.1",
+          "/fil/storage/ask/1.0.1",
+          "/fil/storage/mk/1.1.0",
+          "/fil/retrieval/qry/0.0.1",
+          "/p2p/id/delta/1.0.0",
+          "/ipfs/id/push/1.0.0",
+          "/libp2p/autonat/1.0.0",
+          "/meshsub/1.0.0",
+          "/fil/storage/ask/1.1.0",
+          "/ipfs/id/1.0.0",
+          "/floodsub/1.0.0",
+          "/fil/storage/status/1.1.0"
         ]
       }
     },
@@ -950,11 +1327,14 @@
     {
       "ID": "12D3KooWMYT1V3GAYLPH6aRe8MMjQbvQ5qgFQZWNPRSwB1RQPtRX",
       "Data": {
-        "Addr": [
+        "Addrs": [
           "/ip4/117.52.173.162/tcp/24003"
         ],
-        "Error": "failed to dial 12D3KooWMYT1V3GAYLPH6aRe8MMjQbvQ5qgFQZWNPRSwB1RQPtRX:\n  * [/ip4/117.52.173.162/tcp/24003] dial tcp4 117.52.173.162:24003: i/o timeout",
-        "ID": "12D3KooWMYT1V3GAYLPH6aRe8MMjQbvQ5qgFQZWNPRSwB1RQPtRX"
+        "City": "Seoul",
+        "Country": "Korea (Republic of)",
+        "ID": "12D3KooWMYT1V3GAYLPH6aRe8MMjQbvQ5qgFQZWNPRSwB1RQPtRX",
+        "Latitude": 37.56631,
+        "Longitude": 126.97794
       }
     },
     {
@@ -968,20 +1348,30 @@
         "FoundAddrs": null,
         "ID": "12D3KooWMYT1V3GAYLPH6aRe8MMjQbvQ5qgFQZWNPRSwB1RQPtRX"
       }
+    },
+    {
+      "ID": "12D3KooWMYT1V3GAYLPH6aRe8MMjQbvQ5qgFQZWNPRSwB1RQPtRX",
+      "Data": {
+        "Addr": [
+          "/ip4/117.52.173.162/tcp/24003"
+        ],
+        "Error": "failed to dial 12D3KooWMYT1V3GAYLPH6aRe8MMjQbvQ5qgFQZWNPRSwB1RQPtRX:\n  * [/ip4/117.52.173.162/tcp/24003] dial tcp4 117.52.173.162:24003: i/o timeout",
+        "ID": "12D3KooWMYT1V3GAYLPH6aRe8MMjQbvQ5qgFQZWNPRSwB1RQPtRX"
+      }
     }
   ],
   "12D3KooWN8h1SduL4yEtmVo8mpuuYFD1pYTxhyrMqHhGA8SWvHZk": [
     {
       "ID": "12D3KooWN8h1SduL4yEtmVo8mpuuYFD1pYTxhyrMqHhGA8SWvHZk",
       "Data": {
-        "Addr": [
+        "Addrs": [
           "/ip4/86.123.188.55/tcp/24001"
         ],
-        "Found": true,
-        "FoundAddrs": [
-          "/ip4/86.123.188.55/tcp/24001"
-        ],
-        "ID": "12D3KooWN8h1SduL4yEtmVo8mpuuYFD1pYTxhyrMqHhGA8SWvHZk"
+        "City": "Giurgiu",
+        "Country": "Romania",
+        "ID": "12D3KooWN8h1SduL4yEtmVo8mpuuYFD1pYTxhyrMqHhGA8SWvHZk",
+        "Latitude": 43.88333,
+        "Longitude": 25.96667
       }
     },
     {
@@ -994,32 +1384,58 @@
         "ID": "12D3KooWN8h1SduL4yEtmVo8mpuuYFD1pYTxhyrMqHhGA8SWvHZk",
         "Protocols": [
           "/p2p/id/delta/1.0.0",
-          "/ipfs/id/push/1.0.0",
-          "/fil/storage/ask/1.1.0",
-          "/fil/storage/mk/1.1.0",
+          "/ipfs/graphsync/2.0.0",
+          "/floodsub/1.0.0",
           "/fil/storage/mk/1.0.1",
-          "/fil/retrieval/qry/0.0.1",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/meshsub/1.1.0",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/fil/storage/mk/1.1.1",
           "/fil/storage/status/1.1.0",
+          "/ipfs/id/push/1.0.0",
+          "/meshsub/1.0.0",
+          "/fil/storage/ask/1.1.0",
+          "/fil/storage/ask/1.0.1",
+          "/fil/storage/status/1.0.1",
+          "/legs/head//indexer/ingest/mainnet/0.0.1",
           "/fil/retrieval/qry/1.0.0",
+          "/fil/retrieval/qry/0.0.1",
           "/ipfs/id/1.0.0",
           "/ipfs/ping/1.0.0",
           "/libp2p/autonat/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
           "/ipfs/graphsync/1.0.0",
-          "/floodsub/1.0.0",
-          "/fil/storage/ask/1.0.1",
-          "/ipfs/graphsync/2.0.0",
-          "/meshsub/1.0.0",
+          "/meshsub/1.1.0",
           "/fil/datatransfer/1.2.0",
-          "/fil/storage/status/1.0.1"
+          "/fil/storage/mk/1.1.1",
+          "/fil/storage/mk/1.1.0"
         ]
+      }
+    },
+    {
+      "ID": "12D3KooWN8h1SduL4yEtmVo8mpuuYFD1pYTxhyrMqHhGA8SWvHZk",
+      "Data": {
+        "Addr": [
+          "/ip4/86.123.188.55/tcp/24001"
+        ],
+        "Found": true,
+        "FoundAddrs": [
+          "/ip4/86.123.188.55/tcp/24001"
+        ],
+        "ID": "12D3KooWN8h1SduL4yEtmVo8mpuuYFD1pYTxhyrMqHhGA8SWvHZk"
       }
     }
   ],
   "12D3KooWNMc84yXh9AiQ2oZxrgmwmVs8R7pGwAqdwQDCQC3YC9Lw": [
+    {
+      "ID": "12D3KooWNMc84yXh9AiQ2oZxrgmwmVs8R7pGwAqdwQDCQC3YC9Lw",
+      "Data": {
+        "Addrs": [
+          "/ip4/202.160.106.54/tcp/28018"
+        ],
+        "City": "Ryde",
+        "Country": "Australia",
+        "ID": "12D3KooWNMc84yXh9AiQ2oZxrgmwmVs8R7pGwAqdwQDCQC3YC9Lw",
+        "Latitude": -33.81667,
+        "Longitude": 151.1
+      }
+    },
     {
       "ID": "12D3KooWNMc84yXh9AiQ2oZxrgmwmVs8R7pGwAqdwQDCQC3YC9Lw",
       "Data": {
@@ -1047,6 +1463,19 @@
     {
       "ID": "12D3KooWNRMpZMVSYUQHFoLxaY3ZLr7qYsHD587gJuKHufcXs7Qd",
       "Data": {
+        "Addrs": [
+          "/ip4/18.144.19.252/tcp/7743"
+        ],
+        "City": "San Francisco",
+        "Country": "United States of America",
+        "ID": "12D3KooWNRMpZMVSYUQHFoLxaY3ZLr7qYsHD587gJuKHufcXs7Qd",
+        "Latitude": 37.77493,
+        "Longitude": -122.41942
+      }
+    },
+    {
+      "ID": "12D3KooWNRMpZMVSYUQHFoLxaY3ZLr7qYsHD587gJuKHufcXs7Qd",
+      "Data": {
         "Addr": [
           "/ip4/18.144.19.252/tcp/7743"
         ],
@@ -1055,14 +1484,14 @@
         "Protocols": [
           "/ipfs/ping/1.0.0",
           "/fil/kad/testnetnet/kad/1.0.0",
-          "/ipfs/graphsync/1.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/fil/retrieval/qry/1.0.0",
           "/p2p/id/delta/1.0.0",
           "/ipfs/id/1.0.0",
           "/ipfs/id/push/1.0.0",
           "/libp2p/autonat/1.0.0",
           "/ipfs/graphsync/2.0.0",
+          "/ipfs/graphsync/1.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/retrieval/qry/1.0.0",
           "/fil/retrieval/qry/0.0.1"
         ]
       }
@@ -1075,10 +1504,10 @@
         ],
         "Found": true,
         "FoundAddrs": [
+          "/ip6/::1/tcp/43843",
           "/ip4/18.144.19.252/tcp/7743",
           "/ip4/172.31.19.43/tcp/7743",
-          "/ip4/127.0.0.1/tcp/7743",
-          "/ip6/::1/tcp/43843"
+          "/ip4/127.0.0.1/tcp/7743"
         ],
         "ID": "12D3KooWNRMpZMVSYUQHFoLxaY3ZLr7qYsHD587gJuKHufcXs7Qd"
       }
@@ -1088,16 +1517,14 @@
     {
       "ID": "12D3KooWPnsqPeV6aKrncYxbyP3Bz8ZWZT4YNF9gBxUYD2DXncnE",
       "Data": {
-        "Addr": [
+        "Addrs": [
           "/ip4/66.6.126.70/tcp/15001"
         ],
-        "Found": true,
-        "FoundAddrs": [
-          "/ip4/66.6.126.70/tcp/15001",
-          "/ip6/::1/tcp/38215",
-          "/ip4/10.2.2.10/tcp/15001"
-        ],
-        "ID": "12D3KooWPnsqPeV6aKrncYxbyP3Bz8ZWZT4YNF9gBxUYD2DXncnE"
+        "City": "Des Moines",
+        "Country": "United States of America",
+        "ID": "12D3KooWPnsqPeV6aKrncYxbyP3Bz8ZWZT4YNF9gBxUYD2DXncnE",
+        "Latitude": 41.585686,
+        "Longitude": -93.61892
       }
     },
     {
@@ -1109,33 +1536,61 @@
         "Agent": "lotus-1.16.0+mainnet+git.01254ab32.dirty",
         "ID": "12D3KooWPnsqPeV6aKrncYxbyP3Bz8ZWZT4YNF9gBxUYD2DXncnE",
         "Protocols": [
-          "/p2p/id/delta/1.0.0",
-          "/ipfs/id/1.0.0",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/floodsub/1.0.0",
-          "/fil/storage/status/1.0.1",
-          "/fil/retrieval/qry/1.0.0",
-          "/meshsub/1.0.0",
-          "/fil/retrieval/qry/0.0.1",
-          "/libp2p/autonat/1.0.0",
-          "/ipfs/graphsync/1.0.0",
-          "/meshsub/1.1.0",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
+          "/fil/datatransfer/1.2.0",
           "/fil/storage/ask/1.1.0",
-          "/fil/storage/mk/1.1.1",
+          "/fil/storage/ask/1.0.1",
+          "/fil/storage/status/1.0.1",
+          "/p2p/id/delta/1.0.0",
+          "/ipfs/id/push/1.0.0",
+          "/libp2p/autonat/1.0.0",
           "/fil/storage/mk/1.1.0",
           "/fil/storage/mk/1.0.1",
-          "/fil/storage/status/1.1.0",
-          "/ipfs/id/push/1.0.0",
+          "/fil/retrieval/qry/1.0.0",
           "/ipfs/ping/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/meshsub/1.1.0",
+          "/ipfs/id/1.0.0",
+          "/legs/head//indexer/ingest/mainnet/0.0.1",
+          "/floodsub/1.0.0",
+          "/fil/storage/mk/1.1.1",
+          "/fil/storage/status/1.1.0",
+          "/fil/retrieval/qry/0.0.1",
           "/ipfs/graphsync/2.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/fil/storage/ask/1.0.1"
+          "/ipfs/graphsync/1.0.0",
+          "/meshsub/1.0.0"
         ]
+      }
+    },
+    {
+      "ID": "12D3KooWPnsqPeV6aKrncYxbyP3Bz8ZWZT4YNF9gBxUYD2DXncnE",
+      "Data": {
+        "Addr": [
+          "/ip4/66.6.126.70/tcp/15001"
+        ],
+        "Found": true,
+        "FoundAddrs": [
+          "/ip4/66.6.126.70/tcp/15001",
+          "/ip4/10.2.2.10/tcp/15001",
+          "/ip6/::1/tcp/38215"
+        ],
+        "ID": "12D3KooWPnsqPeV6aKrncYxbyP3Bz8ZWZT4YNF9gBxUYD2DXncnE"
       }
     }
   ],
   "12D3KooWQMduXUCDfc14u4PPd3wRwz6pxseNRELtwQN9wcpCv1ut": [
+    {
+      "ID": "12D3KooWQMduXUCDfc14u4PPd3wRwz6pxseNRELtwQN9wcpCv1ut",
+      "Data": {
+        "Addrs": [
+          "/ip4/54.193.243.116/tcp/8654"
+        ],
+        "City": "San Francisco",
+        "Country": "United States of America",
+        "ID": "12D3KooWQMduXUCDfc14u4PPd3wRwz6pxseNRELtwQN9wcpCv1ut",
+        "Latitude": 37.77493,
+        "Longitude": -122.41942
+      }
+    },
     {
       "ID": "12D3KooWQMduXUCDfc14u4PPd3wRwz6pxseNRELtwQN9wcpCv1ut",
       "Data": {
@@ -1145,17 +1600,17 @@
         "Agent": "lotus-1.15.1-dev+mainnet+git.25a8d014.dirty",
         "ID": "12D3KooWQMduXUCDfc14u4PPd3wRwz6pxseNRELtwQN9wcpCv1ut",
         "Protocols": [
+          "/p2p/id/delta/1.0.0",
           "/ipfs/id/push/1.0.0",
+          "/ipfs/graphsync/1.0.0",
+          "/fil/retrieval/qry/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/ipfs/id/1.0.0",
           "/ipfs/ping/1.0.0",
           "/libp2p/autonat/1.0.0",
-          "/ipfs/graphsync/1.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/ipfs/id/1.0.0",
           "/ipfs/graphsync/2.0.0",
-          "/fil/retrieval/qry/1.0.0",
-          "/fil/retrieval/qry/0.0.1",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/p2p/id/delta/1.0.0"
+          "/fil/datatransfer/1.2.0",
+          "/fil/retrieval/qry/0.0.1"
         ]
       }
     },
@@ -1177,6 +1632,19 @@
     }
   ],
   "12D3KooWQnyVm56fziAm2wXsLEddmbYDGH2sVsaBUMg9Q4QWKNCM": [
+    {
+      "ID": "12D3KooWQnyVm56fziAm2wXsLEddmbYDGH2sVsaBUMg9Q4QWKNCM",
+      "Data": {
+        "Addrs": [
+          "/ip4/61.164.212.195/tcp/24001"
+        ],
+        "City": "Hangzhou",
+        "Country": "China",
+        "ID": "12D3KooWQnyVm56fziAm2wXsLEddmbYDGH2sVsaBUMg9Q4QWKNCM",
+        "Latitude": 30.29365,
+        "Longitude": 120.16142
+      }
+    },
     {
       "ID": "12D3KooWQnyVm56fziAm2wXsLEddmbYDGH2sVsaBUMg9Q4QWKNCM",
       "Data": {
@@ -1204,23 +1672,36 @@
     {
       "ID": "12D3KooWQoJfb2ueBDHN2ipEQqrrsbG9idB3jaCu1cmnvQDk21oi",
       "Data": {
+        "Addrs": [
+          "/ip4/52.27.153.66/tcp/8791"
+        ],
+        "City": "Portland",
+        "Country": "United States of America",
+        "ID": "12D3KooWQoJfb2ueBDHN2ipEQqrrsbG9idB3jaCu1cmnvQDk21oi",
+        "Latitude": 45.52345,
+        "Longitude": -122.67621
+      }
+    },
+    {
+      "ID": "12D3KooWQoJfb2ueBDHN2ipEQqrrsbG9idB3jaCu1cmnvQDk21oi",
+      "Data": {
         "Addr": [
           "/ip4/52.27.153.66/tcp/8791"
         ],
         "Agent": "lotus-1.15.1-dev+mainnet+git.a59dfe52.dirty",
         "ID": "12D3KooWQoJfb2ueBDHN2ipEQqrrsbG9idB3jaCu1cmnvQDk21oi",
         "Protocols": [
-          "/fil/retrieval/qry/0.0.1",
-          "/ipfs/ping/1.0.0",
-          "/libp2p/autonat/1.0.0",
           "/ipfs/graphsync/2.0.0",
-          "/fil/datatransfer/1.2.0",
           "/fil/retrieval/qry/1.0.0",
+          "/fil/retrieval/qry/0.0.1",
           "/fil/kad/testnetnet/kad/1.0.0",
           "/p2p/id/delta/1.0.0",
           "/ipfs/id/1.0.0",
+          "/libp2p/autonat/1.0.0",
+          "/ipfs/graphsync/1.0.0",
+          "/fil/datatransfer/1.2.0",
           "/ipfs/id/push/1.0.0",
-          "/ipfs/graphsync/1.0.0"
+          "/ipfs/ping/1.0.0"
         ]
       }
     },
@@ -1233,15 +1714,28 @@
         "Found": true,
         "FoundAddrs": [
           "/ip4/52.27.153.66/tcp/8791",
+          "/ip4/172.31.29.210/tcp/8791",
           "/ip4/127.0.0.1/tcp/8791",
-          "/ip6/::1/tcp/44871",
-          "/ip4/172.31.29.210/tcp/8791"
+          "/ip6/::1/tcp/44871"
         ],
         "ID": "12D3KooWQoJfb2ueBDHN2ipEQqrrsbG9idB3jaCu1cmnvQDk21oi"
       }
     }
   ],
   "12D3KooWQoUeEjqcxFf59Mfw2xmdMCNFm49Cwqy63mXKs7GtimKh": [
+    {
+      "ID": "12D3KooWQoUeEjqcxFf59Mfw2xmdMCNFm49Cwqy63mXKs7GtimKh",
+      "Data": {
+        "Addrs": [
+          "/ip4/183.232.117.122/tcp/4001"
+        ],
+        "City": "Heyuan",
+        "Country": "China",
+        "ID": "12D3KooWQoUeEjqcxFf59Mfw2xmdMCNFm49Cwqy63mXKs7GtimKh",
+        "Latitude": 23.73333,
+        "Longitude": 114.68333
+      }
+    },
     {
       "ID": "12D3KooWQoUeEjqcxFf59Mfw2xmdMCNFm49Cwqy63mXKs7GtimKh",
       "Data": {
@@ -1264,29 +1758,76 @@
         "Agent": "lotus-1.14.0+mainnet+git.0a09834ec.dirty+2022-03-02.04:57:12UTC",
         "ID": "12D3KooWQoUeEjqcxFf59Mfw2xmdMCNFm49Cwqy63mXKs7GtimKh",
         "Protocols": [
-          "/fil/storage/ask/1.0.1",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/libp2p/autonat/1.0.0",
           "/ipfs/id/push/1.0.0",
           "/fil/datatransfer/1.2.0",
           "/fil/storage/ask/1.1.0",
+          "/fil/storage/mk/1.1.0",
+          "/ipfs/id/1.0.0",
+          "/fil/datatransfer/1.0.0",
+          "/fil/storage/ask/1.0.1",
           "/fil/storage/mk/1.0.1",
           "/fil/storage/status/1.0.1",
+          "/fil/retrieval/qry/1.0.0",
           "/p2p/id/delta/1.0.0",
           "/fil/datatransfer/1.1.0",
-          "/fil/datatransfer/1.0.0",
           "/fil/retrieval/qry/0.0.1",
-          "/fil/retrieval/qry/1.0.0",
-          "/ipfs/id/1.0.0",
           "/ipfs/ping/1.0.0",
           "/ipfs/graphsync/1.0.0",
-          "/fil/storage/mk/1.1.0",
-          "/fil/storage/status/1.1.0"
+          "/fil/storage/status/1.1.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/libp2p/autonat/1.0.0"
         ]
       }
     }
   ],
   "12D3KooWRbJAznZsQVVi3FvUUzyqhZxBrXZDneEUwkfa1RnhR4S3": [
+    {
+      "ID": "12D3KooWRbJAznZsQVVi3FvUUzyqhZxBrXZDneEUwkfa1RnhR4S3",
+      "Data": {
+        "Addrs": [
+          "/ip4/154.42.3.34/tcp/24001"
+        ],
+        "City": "Antwerpen",
+        "Country": "Belgium",
+        "ID": "12D3KooWRbJAznZsQVVi3FvUUzyqhZxBrXZDneEUwkfa1RnhR4S3",
+        "Latitude": 51.21989,
+        "Longitude": 4.40346
+      }
+    },
+    {
+      "ID": "12D3KooWRbJAznZsQVVi3FvUUzyqhZxBrXZDneEUwkfa1RnhR4S3",
+      "Data": {
+        "Addr": [
+          "/ip4/154.42.3.34/tcp/24001"
+        ],
+        "Agent": "lotus-1.16.0+mainnet+git.01254ab32",
+        "ID": "12D3KooWRbJAznZsQVVi3FvUUzyqhZxBrXZDneEUwkfa1RnhR4S3",
+        "Protocols": [
+          "/fil/storage/mk/1.0.1",
+          "/fil/retrieval/qry/0.0.1",
+          "/meshsub/1.1.0",
+          "/legs/head//indexer/ingest/mainnet/0.0.1",
+          "/fil/storage/mk/1.1.0",
+          "/fil/storage/ask/1.0.1",
+          "/fil/storage/status/1.1.0",
+          "/p2p/id/delta/1.0.0",
+          "/ipfs/id/1.0.0",
+          "/ipfs/graphsync/1.0.0",
+          "/floodsub/1.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/storage/ask/1.1.0",
+          "/ipfs/id/push/1.0.0",
+          "/ipfs/ping/1.0.0",
+          "/libp2p/autonat/1.0.0",
+          "/fil/storage/mk/1.1.1",
+          "/fil/storage/status/1.0.1",
+          "/fil/retrieval/qry/1.0.0",
+          "/ipfs/graphsync/2.0.0",
+          "/meshsub/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0"
+        ]
+      }
+    },
     {
       "ID": "12D3KooWRbJAznZsQVVi3FvUUzyqhZxBrXZDneEUwkfa1RnhR4S3",
       "Data": {
@@ -1299,43 +1840,22 @@
         ],
         "ID": "12D3KooWRbJAznZsQVVi3FvUUzyqhZxBrXZDneEUwkfa1RnhR4S3"
       }
-    },
-    {
-      "ID": "12D3KooWRbJAznZsQVVi3FvUUzyqhZxBrXZDneEUwkfa1RnhR4S3",
-      "Data": {
-        "Addr": [
-          "/ip4/154.42.3.34/tcp/24001"
-        ],
-        "Agent": "lotus-1.16.0+mainnet+git.01254ab32",
-        "ID": "12D3KooWRbJAznZsQVVi3FvUUzyqhZxBrXZDneEUwkfa1RnhR4S3",
-        "Protocols": [
-          "/meshsub/1.1.0",
-          "/fil/datatransfer/1.2.0",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/fil/storage/status/1.1.0",
-          "/fil/storage/status/1.0.1",
-          "/ipfs/id/push/1.0.0",
-          "/libp2p/autonat/1.0.0",
-          "/meshsub/1.0.0",
-          "/floodsub/1.0.0",
-          "/fil/storage/ask/1.1.0",
-          "/ipfs/ping/1.0.0",
-          "/ipfs/graphsync/1.0.0",
-          "/fil/storage/mk/1.0.1",
-          "/fil/retrieval/qry/1.0.0",
-          "/fil/retrieval/qry/0.0.1",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/fil/storage/mk/1.1.1",
-          "/ipfs/graphsync/2.0.0",
-          "/fil/storage/ask/1.0.1",
-          "/fil/storage/mk/1.1.0",
-          "/p2p/id/delta/1.0.0",
-          "/ipfs/id/1.0.0"
-        ]
-      }
     }
   ],
   "12D3KooWRvuctf6byqUb1dUXs9mgXHzWvJJp6JLEQSjfvsegNHna": [
+    {
+      "ID": "12D3KooWRvuctf6byqUb1dUXs9mgXHzWvJJp6JLEQSjfvsegNHna",
+      "Data": {
+        "Addrs": [
+          "/ip4/121.178.127.135/tcp/24001"
+        ],
+        "City": "Gwangju",
+        "Country": "Korea (Republic of)",
+        "ID": "12D3KooWRvuctf6byqUb1dUXs9mgXHzWvJJp6JLEQSjfvsegNHna",
+        "Latitude": 35.15472,
+        "Longitude": 126.91556
+      }
+    },
     {
       "ID": "12D3KooWRvuctf6byqUb1dUXs9mgXHzWvJJp6JLEQSjfvsegNHna",
       "Data": {
@@ -1358,33 +1878,46 @@
         "Agent": "lotus-1.16.0+mainnet+git.01254ab32",
         "ID": "12D3KooWRvuctf6byqUb1dUXs9mgXHzWvJJp6JLEQSjfvsegNHna",
         "Protocols": [
-          "/meshsub/1.1.0",
-          "/meshsub/1.0.0",
-          "/fil/storage/ask/1.0.1",
-          "/fil/storage/mk/1.1.0",
-          "/fil/storage/mk/1.0.1",
-          "/fil/retrieval/qry/0.0.1",
           "/fil/kad/testnetnet/kad/1.0.0",
-          "/ipfs/graphsync/2.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/ipfs/id/1.0.0",
-          "/libp2p/autonat/1.0.0",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/fil/storage/mk/1.1.1",
+          "/meshsub/1.0.0",
+          "/fil/storage/ask/1.1.0",
+          "/fil/storage/ask/1.0.1",
           "/fil/storage/status/1.1.0",
-          "/fil/storage/status/1.0.1",
           "/p2p/id/delta/1.0.0",
           "/ipfs/id/push/1.0.0",
-          "/ipfs/ping/1.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/storage/mk/1.0.1",
           "/ipfs/graphsync/1.0.0",
-          "/floodsub/1.0.0",
-          "/fil/storage/ask/1.1.0",
-          "/fil/retrieval/qry/1.0.0"
+          "/meshsub/1.1.0",
+          "/ipfs/graphsync/2.0.0",
+          "/fil/storage/mk/1.1.1",
+          "/fil/retrieval/qry/0.0.1",
+          "/ipfs/ping/1.0.0",
+          "/libp2p/autonat/1.0.0",
+          "/legs/head//indexer/ingest/mainnet/0.0.1",
+          "/fil/storage/mk/1.1.0",
+          "/fil/storage/status/1.0.1",
+          "/fil/retrieval/qry/1.0.0",
+          "/ipfs/id/1.0.0",
+          "/floodsub/1.0.0"
         ]
       }
     }
   ],
   "12D3KooWSDbfUkotGQiT39sni5fuyPdGb3YzmJBtDRa3zZ9YbFUz": [
+    {
+      "ID": "12D3KooWSDbfUkotGQiT39sni5fuyPdGb3YzmJBtDRa3zZ9YbFUz",
+      "Data": {
+        "Addrs": [
+          "/ip4/34.219.53.128/tcp/8083"
+        ],
+        "City": "Portland",
+        "Country": "United States of America",
+        "ID": "12D3KooWSDbfUkotGQiT39sni5fuyPdGb3YzmJBtDRa3zZ9YbFUz",
+        "Latitude": 45.52345,
+        "Longitude": -122.67621
+      }
+    },
     {
       "ID": "12D3KooWSDbfUkotGQiT39sni5fuyPdGb3YzmJBtDRa3zZ9YbFUz",
       "Data": {
@@ -1394,17 +1927,17 @@
         "Agent": "lotus-1.15.1-dev+mainnet+git.a59dfe52.dirty",
         "ID": "12D3KooWSDbfUkotGQiT39sni5fuyPdGb3YzmJBtDRa3zZ9YbFUz",
         "Protocols": [
+          "/ipfs/graphsync/2.0.0",
+          "/fil/retrieval/qry/0.0.1",
+          "/ipfs/id/push/1.0.0",
           "/ipfs/id/1.0.0",
           "/ipfs/ping/1.0.0",
           "/libp2p/autonat/1.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/p2p/id/delta/1.0.0",
-          "/ipfs/id/push/1.0.0",
-          "/ipfs/graphsync/2.0.0",
           "/ipfs/graphsync/1.0.0",
+          "/fil/datatransfer/1.2.0",
           "/fil/retrieval/qry/1.0.0",
-          "/fil/retrieval/qry/0.0.1"
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/p2p/id/delta/1.0.0"
         ]
       }
     },
@@ -1429,34 +1962,47 @@
     {
       "ID": "12D3KooWSQQTfeUbgjWsAbZPuH6NZvxmwXBtEtJZaAHhGM1etzck",
       "Data": {
+        "Addrs": [
+          "/ip4/211.107.174.12/tcp/24001"
+        ],
+        "City": "Seongnam",
+        "Country": "Korea (Republic of)",
+        "ID": "12D3KooWSQQTfeUbgjWsAbZPuH6NZvxmwXBtEtJZaAHhGM1etzck",
+        "Latitude": 37.420124,
+        "Longitude": 127.12666
+      }
+    },
+    {
+      "ID": "12D3KooWSQQTfeUbgjWsAbZPuH6NZvxmwXBtEtJZaAHhGM1etzck",
+      "Data": {
         "Addr": [
           "/ip4/211.107.174.12/tcp/24001"
         ],
         "Agent": "lotus-1.16.0+mainnet+git.01254ab32",
         "ID": "12D3KooWSQQTfeUbgjWsAbZPuH6NZvxmwXBtEtJZaAHhGM1etzck",
         "Protocols": [
-          "/fil/storage/mk/1.1.1",
-          "/fil/storage/mk/1.0.1",
-          "/ipfs/graphsync/1.0.0",
-          "/fil/kad/testnetnet/kad/1.0.0",
           "/fil/retrieval/qry/1.0.0",
-          "/fil/retrieval/qry/0.0.1",
-          "/ipfs/id/push/1.0.0",
-          "/libp2p/autonat/1.0.0",
-          "/fil/datatransfer/1.2.0",
-          "/fil/storage/mk/1.1.0",
-          "/ipfs/id/1.0.0",
+          "/ipfs/ping/1.0.0",
           "/ipfs/graphsync/2.0.0",
+          "/ipfs/graphsync/1.0.0",
           "/meshsub/1.1.0",
-          "/meshsub/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/fil/storage/status/1.1.0",
+          "/p2p/id/delta/1.0.0",
           "/floodsub/1.0.0",
-          "/legs/head//indexer/ingest/mainnet/0.0.1",
           "/fil/storage/ask/1.1.0",
           "/fil/storage/ask/1.0.1",
-          "/p2p/id/delta/1.0.0",
-          "/ipfs/ping/1.0.0",
-          "/fil/storage/status/1.1.0",
-          "/fil/storage/status/1.0.1"
+          "/fil/storage/mk/1.1.1",
+          "/fil/storage/mk/1.1.0",
+          "/fil/storage/mk/1.0.1",
+          "/ipfs/id/1.0.0",
+          "/meshsub/1.0.0",
+          "/legs/head//indexer/ingest/mainnet/0.0.1",
+          "/fil/storage/status/1.0.1",
+          "/ipfs/id/push/1.0.0",
+          "/libp2p/autonat/1.0.0",
+          "/fil/retrieval/qry/0.0.1"
         ]
       }
     },
@@ -1478,34 +2024,47 @@
     {
       "ID": "12D3KooWSqS2TSub9xKbjgX76bS19Pf1KWZDkL3CZaXFXn5JkdW7",
       "Data": {
+        "Addrs": [
+          "/ip4/185.32.160.239/tcp/42001"
+        ],
+        "City": "Roznov pod Radhostem",
+        "Country": "Czechia",
+        "ID": "12D3KooWSqS2TSub9xKbjgX76bS19Pf1KWZDkL3CZaXFXn5JkdW7",
+        "Latitude": 49.45853,
+        "Longitude": 18.14302
+      }
+    },
+    {
+      "ID": "12D3KooWSqS2TSub9xKbjgX76bS19Pf1KWZDkL3CZaXFXn5JkdW7",
+      "Data": {
         "Addr": [
           "/ip4/185.32.160.239/tcp/42001"
         ],
         "Agent": "lotus-1.16.0+mainnet+git.01254ab32",
         "ID": "12D3KooWSqS2TSub9xKbjgX76bS19Pf1KWZDkL3CZaXFXn5JkdW7",
         "Protocols": [
-          "/fil/storage/status/1.1.0",
-          "/fil/retrieval/qry/1.0.0",
-          "/ipfs/id/1.0.0",
-          "/ipfs/ping/1.0.0",
-          "/fil/kad/testnetnet/kad/1.0.0",
-          "/fil/storage/status/1.0.1",
-          "/ipfs/graphsync/1.0.0",
-          "/meshsub/1.1.0",
-          "/fil/storage/ask/1.0.1",
-          "/meshsub/1.0.0",
-          "/floodsub/1.0.0",
-          "/fil/datatransfer/1.2.0",
           "/legs/head//indexer/ingest/mainnet/0.0.1",
-          "/fil/storage/mk/1.1.0",
-          "/ipfs/id/push/1.0.0",
-          "/libp2p/autonat/1.0.0",
           "/ipfs/graphsync/2.0.0",
-          "/fil/storage/mk/1.0.1",
-          "/fil/retrieval/qry/0.0.1",
-          "/p2p/id/delta/1.0.0",
+          "/fil/storage/ask/1.0.1",
+          "/fil/storage/status/1.1.0",
+          "/fil/storage/mk/1.1.0",
+          "/libp2p/autonat/1.0.0",
+          "/fil/kad/testnetnet/kad/1.0.0",
+          "/floodsub/1.0.0",
           "/fil/storage/ask/1.1.0",
-          "/fil/storage/mk/1.1.1"
+          "/fil/storage/mk/1.1.1",
+          "/meshsub/1.1.0",
+          "/meshsub/1.0.0",
+          "/fil/datatransfer/1.2.0",
+          "/p2p/id/delta/1.0.0",
+          "/ipfs/id/1.0.0",
+          "/ipfs/id/push/1.0.0",
+          "/ipfs/ping/1.0.0",
+          "/ipfs/graphsync/1.0.0",
+          "/fil/storage/mk/1.0.1",
+          "/fil/storage/status/1.0.1",
+          "/fil/retrieval/qry/1.0.0",
+          "/fil/retrieval/qry/0.0.1"
         ]
       }
     },
@@ -1524,6 +2083,19 @@
     }
   ],
   "12D3KooWSyE7CspqGinUWdDqvZdVRJS3dnnJ4SXFnbu9MnW7DTNd": [
+    {
+      "ID": "12D3KooWSyE7CspqGinUWdDqvZdVRJS3dnnJ4SXFnbu9MnW7DTNd",
+      "Data": {
+        "Addrs": [
+          "/ip4/10.8.1.7/tcp/6666"
+        ],
+        "City": "-",
+        "Country": "-",
+        "ID": "12D3KooWSyE7CspqGinUWdDqvZdVRJS3dnnJ4SXFnbu9MnW7DTNd",
+        "Latitude": 0,
+        "Longitude": 0
+      }
+    },
     {
       "ID": "12D3KooWSyE7CspqGinUWdDqvZdVRJS3dnnJ4SXFnbu9MnW7DTNd",
       "Data": {
