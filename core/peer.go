@@ -16,8 +16,8 @@ import (
 	"github.com/libp2p/go-libp2p-core/protocol"
 	"github.com/libp2p/go-libp2p-core/routing"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
+	"github.com/libp2p/go-libp2p-kad-dht/dual"
 	record "github.com/libp2p/go-libp2p-record"
-	libp2ptls "github.com/libp2p/go-libp2p-tls"
 )
 
 var log = logging.Logger("surveyor/core")
@@ -51,7 +51,7 @@ type Config struct {
 }
 
 type Peer struct {
-	dht  *dht.IpfsDHT
+	dht  *dual.DHT
 	host host.Host
 	cfg  *Config
 }
@@ -77,23 +77,22 @@ func New(ctx context.Context, DHTpp protocol.ID, opts ...ConfigOpt) (*Peer, erro
 		cfg.datastore = dsync.MutexWrap(datastore.NewMapDatastore())
 	}
 
-	var ddht *dht.IpfsDHT
+	var ddht *dual.DHT
 	if cfg.libp2pOpts == nil {
 		cfg.libp2pOpts = []libp2p.Option{
-			libp2p.Identity(cfg.privateKey),
-			libp2p.Security(libp2ptls.ID, libp2ptls.New),
 			libp2p.DefaultTransports,
+			libp2p.Identity(cfg.privateKey),
 			libp2p.Routing(func(h host.Host) (routing.PeerRouting, error) {
 				var err error
-				ddht, err = dht.New(
+				ddht, err = dual.New(
 					ctx,
 					h,
-					dht.Datastore(cfg.datastore),
-					dht.NamespacedValidator("pk", record.PublicKeyValidator{}),
-					dht.NamespacedValidator("ipns", ipns.Validator{KeyBook: h.Peerstore()}),
-					dht.Concurrency(50),
-					dht.Mode(dht.ModeAuto),
-					dht.ProtocolPrefix(DHTpp),
+					dual.DHTOption(dht.Datastore(cfg.datastore)),
+					dual.DHTOption(dht.NamespacedValidator("pk", record.PublicKeyValidator{})),
+					dual.DHTOption(dht.NamespacedValidator("ipns", ipns.Validator{KeyBook: h.Peerstore()})),
+					dual.DHTOption(dht.Concurrency(50)),
+					dual.DHTOption(dht.Mode(dht.ModeAuto)),
+					dual.DHTOption(dht.ProtocolPrefix(DHTpp)),
 				)
 				return ddht, err
 			}),
@@ -155,6 +154,6 @@ func (p *Peer) Host() host.Host {
 	return p.host
 }
 
-func (p *Peer) DHT() *dht.IpfsDHT {
+func (p *Peer) DHT() *dual.DHT {
 	return p.dht
 }

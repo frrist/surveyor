@@ -54,7 +54,7 @@ var calibnetPeers = []string{
 
 var CalibnetPeers []peer.AddrInfo
 
-const CalibnetDHTPrefix = "/fil/kad/calibnet"
+const CalibnetDHTPrefix = "/fil/kad/calibrationnet"
 
 func initCalibnetPeers() {
 	mainMaddrs := make([]multiaddr.Multiaddr, len(calibnetPeers))
