@@ -11,14 +11,9 @@ import (
 	blockstore "github.com/ipfs/go-ipfs-blockstore"
 	exchange "github.com/ipfs/go-ipfs-exchange-interface"
 	ipld "github.com/ipfs/go-ipld-format"
-	"github.com/ipfs/go-ipns"
 	logging "github.com/ipfs/go-log/v2"
 	"github.com/ipfs/go-merkledag"
-	"github.com/libp2p/go-libp2p-core/host"
 	"github.com/libp2p/go-libp2p-core/peer"
-	"github.com/libp2p/go-libp2p-core/routing"
-	dht "github.com/libp2p/go-libp2p-kad-dht"
-	record "github.com/libp2p/go-libp2p-record"
 	"github.com/libp2p/go-libp2p/config"
 
 	"github.com/frrist/surveyor/core"
@@ -51,22 +46,7 @@ func New(ctx context.Context, cfg Config, opts ...core.ConfigOpt) (*Peer, error)
 		cfg.Datastore = dsync.MutexWrap(datastore.NewMapDatastore())
 	}
 
-	if cfg.Routing == nil {
-		cfg.Routing = func(h host.Host) (routing.PeerRouting, error) {
-			ddht, err := dht.New(
-				ctx,
-				h,
-				dht.Datastore(cfg.Datastore),
-				dht.NamespacedValidator("pk", record.PublicKeyValidator{}),
-				dht.NamespacedValidator("ipns", ipns.Validator{KeyBook: h.Peerstore()}),
-				dht.Concurrency(50),
-				dht.Mode(dht.ModeClient),
-			)
-			return ddht, err
-		}
-	}
-
-	p, err := core.New(cfg.Routing, opts...)
+	p, err := core.New(ctx, "/ipfs", opts...)
 	if err != nil {
 		return nil, err
 	}

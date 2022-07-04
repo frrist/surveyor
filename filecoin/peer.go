@@ -7,14 +7,9 @@ import (
 	"github.com/gammazero/workerpool"
 	"github.com/ipfs/go-datastore"
 	dsync "github.com/ipfs/go-datastore/sync"
-	"github.com/ipfs/go-ipns"
 	logging "github.com/ipfs/go-log/v2"
-	"github.com/libp2p/go-libp2p-core/host"
 	"github.com/libp2p/go-libp2p-core/peer"
-	"github.com/libp2p/go-libp2p-core/routing"
-	dht "github.com/libp2p/go-libp2p-kad-dht"
-	record "github.com/libp2p/go-libp2p-record"
-	"github.com/libp2p/go-libp2p/config"
+	"github.com/libp2p/go-libp2p-core/protocol"
 
 	"github.com/frrist/surveyor/core"
 )
@@ -22,9 +17,9 @@ import (
 var log = logging.Logger("surveyor/filecoin")
 
 type Config struct {
-	Bootstrap []peer.AddrInfo
-	Datastore datastore.Batching
-	Routing   config.RoutingC
+	Bootstrap         []peer.AddrInfo
+	Datastore         datastore.Batching
+	DHTProtocolPrefix protocol.ID
 }
 
 type Peer struct {
@@ -41,23 +36,11 @@ func New(ctx context.Context, cfg Config, opts ...core.ConfigOpt) (*Peer, error)
 		cfg.Datastore = dsync.MutexWrap(datastore.NewMapDatastore())
 	}
 
-	if cfg.Routing == nil {
-		cfg.Routing = func(h host.Host) (routing.PeerRouting, error) {
-			ddht, err := dht.New(
-				ctx,
-				h,
-				dht.Datastore(cfg.Datastore),
-				dht.NamespacedValidator("pk", record.PublicKeyValidator{}),
-				dht.NamespacedValidator("ipns", ipns.Validator{KeyBook: h.Peerstore()}),
-				dht.Concurrency(50),
-				dht.Mode(dht.ModeClient),
-				dht.ProtocolPrefix(MainnetDHTPrefix),
-			)
-			return ddht, err
-		}
+	if cfg.DHTProtocolPrefix == "" {
+		cfg.DHTProtocolPrefix = MainnetDHTPrefix
 	}
 
-	p, err := core.New(cfg.Routing, opts...)
+	p, err := core.New(ctx, cfg.DHTProtocolPrefix, opts...)
 	if err != nil {
 		return nil, err
 	}
