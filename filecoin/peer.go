@@ -2,6 +2,7 @@ package filecoin
 
 import (
 	"context"
+	"fmt"
 	"time"
 
 	"github.com/gammazero/workerpool"
@@ -55,6 +56,67 @@ func (p *Peer) Bootstrap(ctx context.Context) error {
 	return p.core.Bootstrap(ctx, p.cfg.Bootstrap)
 }
 
+type PeerAgentProtocols struct {
+	Peer      peer.AddrInfo
+	Agent     string
+	Protocols []string
+}
+
+func (p *Peer) GetAllPeerAgentProtocols(ctx context.Context, whos []peer.AddrInfo, by time.Duration, workers int) chan *PeerAgentProtocols {
+	out := make(chan *PeerAgentProtocols)
+	wp := workerpool.New(workers)
+	for _, who := range whos {
+		wp.Submit(func() {
+			found, err := p.GetPeerAgentProtocolsWithTimeout(ctx, who, by)
+			if err != nil {
+				return
+			}
+			out <- found
+		})
+	}
+	go func() {
+		wp.StopWait()
+		close(out)
+	}()
+	return out
+}
+
+func (p *Peer) GetPeerAgentProtocolsWithTimeout(ctx context.Context, who peer.AddrInfo, by time.Duration) (*PeerAgentProtocols, error) {
+	ctx, cancel := context.WithTimeout(ctx, by)
+	defer cancel()
+	found, err := p.GetPeerAgentProtocols(ctx, who)
+	if err != nil {
+		if err == context.DeadlineExceeded {
+			log.Infow("deadline exceeded for peer", "error", err)
+			return nil, err
+		}
+		log.Infow("connecting to peer failed", "error", err, "peer", who.String())
+		return nil, err
+	}
+	return found, nil
+}
+
+func (p *Peer) GetPeerAgentProtocols(ctx context.Context, who peer.AddrInfo) (*PeerAgentProtocols, error) {
+	if err := p.core.Host().Connect(ctx, who); err != nil {
+		return nil, fmt.Errorf("connecting to peer %s: %w", who.Addrs, err)
+	}
+
+	protos, err := p.core.Host().Peerstore().GetProtocols(who.ID)
+	if err != nil {
+		return nil, err
+	}
+
+	agent, err := p.core.Host().Peerstore().Get(who.ID, "AgentVersion")
+	if err != nil {
+		return nil, err
+	}
+	return &PeerAgentProtocols{
+		Peer:      who,
+		Agent:     agent.(string),
+		Protocols: protos,
+	}, nil
+}
+
 // FindAllPeers queries the DHT for all peers in `whos` using `workers` goroutines, each peer has a find timeout of `by`.
 // FindAllPeers will close the returned channel when all find operations have completed. Errors for finding peers are ignored.
 func (p *Peer) FindAllPeers(ctx context.Context, whos []peer.ID, by time.Duration, workers int) chan peer.AddrInfo {
@@ -82,10 +144,10 @@ func (p *Peer) FindPeerWithTimeout(ctx context.Context, who peer.ID, by time.Dur
 	found, err := p.FindPeer(ctx, who)
 	if err != nil {
 		if err == context.DeadlineExceeded {
-			log.Infow("deadline exceeded searching for peer", "error", err)
+			log.Infow("deadline exceeded for peer", "error", err)
 			return peer.AddrInfo{}, err
 		}
-		log.Warn("finding peer failed", "error", err, "peer", who.String())
+		log.Infow("finding peer failed", "error", err, "peer", who.String())
 		return peer.AddrInfo{}, err
 	}
 	return found, nil
