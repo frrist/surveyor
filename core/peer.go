@@ -13,7 +13,6 @@ import (
 	"github.com/libp2p/go-libp2p-core/host"
 	"github.com/libp2p/go-libp2p-core/peer"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
-	noise "github.com/libp2p/go-libp2p-noise"
 	libp2ptls "github.com/libp2p/go-libp2p-tls"
 	"github.com/libp2p/go-libp2p/config"
 )
@@ -80,7 +79,6 @@ func New(routing config.RoutingC, opts ...ConfigOpt) (*Peer, error) {
 		cfg.libp2pOpts = []libp2p.Option{
 			libp2p.Identity(cfg.privateKey),
 			libp2p.Security(libp2ptls.ID, libp2ptls.New),
-			libp2p.Security(noise.ID, noise.New),
 			libp2p.DefaultTransports,
 			libp2p.Routing(routing),
 		}

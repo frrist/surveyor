@@ -29,10 +29,10 @@ type Config struct {
 
 type Peer struct {
 	core *core.Peer
-	cfg  *Config
+	cfg  Config
 }
 
-func New(ctx context.Context, cfg *Config, opts ...core.ConfigOpt) (*Peer, error) {
+func New(ctx context.Context, cfg Config, opts ...core.ConfigOpt) (*Peer, error) {
 	if cfg.Bootstrap == nil {
 		cfg.Bootstrap = MainnetPeers
 	}
