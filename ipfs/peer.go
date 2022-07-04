@@ -3,7 +3,6 @@ package ipfs
 import (
 	"context"
 
-	ipfslite "github.com/hsanjuan/ipfs-lite"
 	"github.com/ipfs/go-bitswap"
 	"github.com/ipfs/go-bitswap/network"
 	"github.com/ipfs/go-blockservice"
@@ -45,7 +44,7 @@ type Peer struct {
 
 func New(ctx context.Context, cfg *Config, opts ...core.ConfigOpt) (*Peer, error) {
 	if cfg.Bootstrap == nil {
-		cfg.Bootstrap = ipfslite.DefaultBootstrapPeers()
+		cfg.Bootstrap = IPFSPeers
 	}
 
 	if cfg.Datastore == nil {
