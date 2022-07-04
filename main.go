@@ -11,6 +11,7 @@ import (
 	"github.com/mitchellh/go-homedir"
 	"github.com/urfave/cli/v2"
 
+	"github.com/frrist/surveyor/storage"
 	"github.com/frrist/surveyor/survey"
 )
 
@@ -140,16 +141,28 @@ var runCmd = &cli.Command{
 			return err
 		}
 		ctx := context.Background()
+		db, err := storage.NewDatabase("localhost", "postgres", "password", "postgres", 5432, "disable")
+		if err != nil {
+			return err
+		}
+		agentProc, err := survey.NewAgentProcessor(inspect, db)
+		if err != nil {
+			return err
+		}
+		dhtProc, err := survey.NewDHTProcessor(inspect, db)
+		if err != nil {
+			return err
+		}
+		locProc, err := survey.NewPeerLocation(inspect, db)
+		if err != nil {
+			return err
+		}
 		results := make(chan *survey.Result)
-		go inspect.Run(ctx, MinerPeerAddrInfo(), results, survey.NewAgentProcessor(inspect), survey.NewDHTProcessor(inspect), survey.NewPeerLocation(inspect))
-
-		thing := make(map[string][]interface{})
+		go inspect.Run(ctx, MinerPeerAddrInfo(), results, agentProc, dhtProc, locProc)
 
 		for res := range results {
-			thing[res.ID.String()] = append(thing[res.ID.String()], res)
+			db.DB.Create(res.Data)
 		}
-
-		PrintJson(thing)
 
 		return nil
 	},
