@@ -16,7 +16,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p/config"
 
-	"github.com/frrist/surveyor/core"
+	"github.com/frrist/surveyor/networks/internal/core"
 )
 
 var log = logging.Logger("surveyor/ipfs")
