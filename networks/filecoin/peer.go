@@ -3,6 +3,7 @@ package filecoin
 import (
 	"context"
 	"fmt"
+	"sync/atomic"
 	"time"
 
 	"github.com/gammazero/workerpool"
@@ -12,7 +13,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p-core/protocol"
 
-	"github.com/frrist/surveyor/core"
+	"github.com/frrist/surveyor/networks/internal/core"
 )
 
 var log = logging.Logger("surveyor/filecoin")
@@ -63,20 +64,24 @@ type PeerAgentProtocols struct {
 }
 
 func (p *Peer) GetAllPeerAgentProtocols(ctx context.Context, whos []peer.AddrInfo, by time.Duration, workers int) chan *PeerAgentProtocols {
+	count := int64(0)
 	out := make(chan *PeerAgentProtocols)
 	wp := workerpool.New(workers)
 	for _, who := range whos {
+		who := who
 		wp.Submit(func() {
 			found, err := p.GetPeerAgentProtocolsWithTimeout(ctx, who, by)
 			if err != nil {
 				return
 			}
 			out <- found
+			atomic.AddInt64(&count, 1)
 		})
 	}
 	go func() {
 		wp.StopWait()
 		close(out)
+		log.Infow("GetAllPeerAgentProtocols", "found", count, "total", len(whos))
 	}()
 	return out
 }
@@ -87,10 +92,10 @@ func (p *Peer) GetPeerAgentProtocolsWithTimeout(ctx context.Context, who peer.Ad
 	found, err := p.GetPeerAgentProtocols(ctx, who)
 	if err != nil {
 		if err == context.DeadlineExceeded {
-			log.Infow("deadline exceeded for peer", "error", err)
+			log.Debugw("deadline exceeded for peer", "error", err)
 			return nil, err
 		}
-		log.Infow("connecting to peer failed", "error", err, "peer", who.String())
+		log.Debugw("connecting to peer failed", "error", err, "peer", who.String())
 		return nil, err
 	}
 	return found, nil
@@ -120,20 +125,24 @@ func (p *Peer) GetPeerAgentProtocols(ctx context.Context, who peer.AddrInfo) (*P
 // FindAllPeers queries the DHT for all peers in `whos` using `workers` goroutines, each peer has a find timeout of `by`.
 // FindAllPeers will close the returned channel when all find operations have completed. Errors for finding peers are ignored.
 func (p *Peer) FindAllPeers(ctx context.Context, whos []peer.ID, by time.Duration, workers int) chan peer.AddrInfo {
+	count := int64(0)
 	out := make(chan peer.AddrInfo)
 	wp := workerpool.New(workers)
 	for _, who := range whos {
+		who := who
 		wp.Submit(func() {
 			found, err := p.FindPeerWithTimeout(ctx, who, by)
 			if err != nil {
 				return
 			}
 			out <- found
+			atomic.AddInt64(&count, 1)
 		})
 	}
 	go func() {
 		wp.StopWait()
 		close(out)
+		log.Infow("FindAllPeers", "found", count, "total", len(whos))
 	}()
 	return out
 }
@@ -144,10 +153,10 @@ func (p *Peer) FindPeerWithTimeout(ctx context.Context, who peer.ID, by time.Dur
 	found, err := p.FindPeer(ctx, who)
 	if err != nil {
 		if err == context.DeadlineExceeded {
-			log.Infow("deadline exceeded for peer", "error", err)
+			log.Debugw("deadline exceeded for peer", "error", err)
 			return peer.AddrInfo{}, err
 		}
-		log.Infow("finding peer failed", "error", err, "peer", who.String())
+		log.Debugw("finding peer failed", "error", err, "peer", who.String())
 		return peer.AddrInfo{}, err
 	}
 	return found, nil
